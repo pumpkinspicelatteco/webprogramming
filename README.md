@@ -8,6 +8,6 @@ within this repo for the Web Programming playlist on YouTube.
 2. [Beginner Web Progamming](./basicweb) - [YouTube Video](https://youtu.be/9MZtw0Mh9oY)
 3. [Introduction to Server Programming](./introtoservers.pdf) - [YouTube Video](https://youtu.be/bTuhZWoOgsU)
 4. [Beginner Server Progamming](./basicserver) - [YouTube Video](https://youtu.be/vH8cB6uxEN4)
-5. [Beginner Server Routing](./basicrouting) - [YouTube Video](./basicrouting/beginnerrouting.pdf)
+5. [Beginner Server Routing](./basicrouting) - [YouTube Video](https://youtu.be/pc2oCi-ZTjU)
 
 ### Pumpkin Spice Latte Co. © 2021
