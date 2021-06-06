@@ -1,3 +1,13 @@
-basicserver/server
+main
+demo
+target
+server
+node_modules
+basicrouting/src
+Cargo.toml
+Cargo.lock
+__pycache__
+venv
 .DS_Store
 *.DS_Store
+*.pyc
