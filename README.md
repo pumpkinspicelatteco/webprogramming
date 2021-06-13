@@ -9,6 +9,6 @@ within this repo for the Web Programming playlist on YouTube.
 3. [Introduction to Server Programming](./introtoservers.pdf) - [YouTube Video](https://youtu.be/bTuhZWoOgsU)
 4. [Beginner Server Progamming](./basicserver) - [YouTube Video](https://youtu.be/vH8cB6uxEN4)
 5. [Beginner Server Routing](./basicrouting) - [YouTube Video](https://youtu.be/pc2oCi-ZTjU)
-6. [Beginner Monolith Programming](./basicmonolith) - [YouTube Video](./basicmonolith/beginnermonolith.pdf)
+6. [Beginner Monolith Programming](./basicmonolith) - [YouTube Video](https://youtu.be/LsocxaeTHcc)
 
 ### Pumpkin Spice Latte Co. © 2021
