@@ -4,7 +4,9 @@ target
 server
 node_modules
 basicrouting/src
+basicmonolith/src
 basicrouting/*.json
+basicmonolith/*.json
 Cargo.toml
 Cargo.lock
 __pycache__
