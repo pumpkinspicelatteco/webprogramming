@@ -2,6 +2,8 @@ main
 demo
 target
 server
+venv*
+venv
 node_modules
 basicrouting/src
 basicmonolith/src
@@ -10,7 +12,6 @@ basicmonolith/*.json
 Cargo.toml
 Cargo.lock
 __pycache__
-venv
 .DS_Store
 *.DS_Store
 *.pyc

@@ -15,5 +15,9 @@ from flask import Flask, send_from_directory
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
-    return send_from_directory('public', 'index.html')
+def home():
+    return send_from_directory('../public', 'index.html')
+
+@app.route('/<file>')
+def others(file):
+    return send_from_directory('../public', file)
