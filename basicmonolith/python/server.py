@@ -10,14 +10,32 @@
 # $ export FLASK_ENV=development
 # $ flask run
 
-from flask import Flask, send_from_directory
+# to enable cors:
+# $ pip3 install -U flask-cors
 
-app = Flask(__name__)
+# to enable spdy & h2 we need to upgrade to quart:
+# $ pip3 install -U quart quart_cors
+# $ export QUART_APP=server:app
+
+# to enable gzip compression:
+# $ pip3 install -U quart-compress
+
+from quart import Quart, send_from_directory
+
+from quart_cors import cors
+from quart_compress import Compress
+
+app = Quart(__name__)
+Compress(app)
+
+app = cors(app)
 
 @app.route('/')
-def home():
-    return send_from_directory('../public', 'index.html')
+async def home():
+    return await send_from_directory('../public', 'index.html')
 
 @app.route('/<file>')
-def others(file):
-    return send_from_directory('../public', file)
+async def others(file):
+    return await send_from_directory('../public', file)
+
+app.run()
