@@ -9,6 +9,7 @@ basicrouting/src
 basicmonolith/src
 basicrouting/*.json
 basicmonolith/*.json
+basicmonolith/node/*.json
 Cargo.toml
 Cargo.lock
 __pycache__
