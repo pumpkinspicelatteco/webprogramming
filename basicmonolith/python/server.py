@@ -26,7 +26,6 @@
 # $ heroku git:remote -a <heroku app>
 # $ git add -A
 # $ git commit -am "feat: add files"
-# $ heroku config:add PORT=5000
 # $ git push heroku master
 # $ heroku ps:scale web=1
 
