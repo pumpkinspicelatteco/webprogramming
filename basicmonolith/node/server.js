@@ -3,6 +3,14 @@
 // npm i express cors compression spdy serve-favicon
 // npm start
 
+// to deploy to heroku
+// $ git init
+// $ heroku login
+// $ heroku git:remote -a <heroku app>
+// $ git add -A
+// $ git commit -am "feat: add files"
+// $ git push heroku master
+
 var compression = require('compression');
 var favicon = require('serve-favicon');
 var cors = require('cors');
@@ -13,12 +21,12 @@ var app = express();
 
 app.use(cors());
 app.use(compression());
-app.use(express.static('../public'));
-app.use(favicon('../public/favicon.ico'));
+app.use(express.static('./public'));
+app.use(favicon('./public/favicon.ico'));
 
 app.get('/hello/world', (req, res) => {
     res.sendFile('index.html', {
-        root: '../public'
+        root: './public'
     });
 });
 

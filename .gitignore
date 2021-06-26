@@ -12,6 +12,7 @@ basicmonolith/*.json
 basicmonolith/node/.git*
 basicmonolith/python/.git*
 basicmonolith/node/*.json
+basicmonolith/node/public
 basicmonolith/python/public
 Cargo.toml
 Cargo.lock
