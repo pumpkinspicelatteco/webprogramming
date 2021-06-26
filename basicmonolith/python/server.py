@@ -20,6 +20,17 @@
 # to enable gzip compression:
 # $ pip3 install -U quart-compress
 
+# to deploy to heroku
+# $ git init
+# $ heroku login
+# $ heroku git:remote -a <heroku app>
+# $ git add -A
+# $ git commit -am "feat: add files"
+# $ heroku config:add PORT=5000
+# $ git push heroku master
+# $ heroku ps:scale web=1
+
+import os
 from quart import Quart, send_from_directory
 
 from quart_cors import cors
@@ -32,10 +43,11 @@ app = cors(app)
 
 @app.route('/')
 async def home():
-    return await send_from_directory('../public', 'index.html')
+    return await send_from_directory('./public', 'index.html')
 
 @app.route('/<file>')
 async def others(file):
-    return await send_from_directory('../public', file)
+    return await send_from_directory('./public', file)
 
-app.run()
+port = int(os.environ.get('PORT', 5000))
+app.run(port=port)

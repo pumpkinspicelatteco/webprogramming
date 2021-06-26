@@ -1,4 +1,38 @@
 body {
-    font-size: 10vh;
-    font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #bbb;
+  font-family: Bradley Hand, cursive;
+} header {
+  width: 50vw;
+  opacity: 0.80;
+  min-width: 500px;
+  min-height: 400px;
+  background-color: #eee;
+  box-shadow: 0 0 10px #777;
+} .circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #829473;
+} .outer {
+  box-shadow: 0 0 7px #495341;
+} .inner {
+  width: 270px;
+  height: 270px;
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  border: 3px solid white;
+} ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-direction: column;
+} li.sub-title {
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-family: Helvetica, sans-serif;
 }

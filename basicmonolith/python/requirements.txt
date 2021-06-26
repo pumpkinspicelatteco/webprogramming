@@ -1,6 +1,4 @@
-Flask==2.0.0
-Django==3.2.3
-Flask_Cors=3.0.10
-Quart=0.15.1
-Quart_CORS=0.5.0
-quart_compress=0.2.1
+Quart
+Quart_CORS
+quart_compress
+hypercorn
