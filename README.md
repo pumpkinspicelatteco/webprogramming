@@ -11,6 +11,6 @@ within this repo for the Web Programming playlist on YouTube.
 5. [Beginner Server Routing](./basicrouting) - [YouTube Video](https://youtu.be/pc2oCi-ZTjU)
 6. [Beginner Monolith Programming](./basicmonolith) - [YouTube Video](https://youtu.be/LsocxaeTHcc)
 7. [Monolith Programming Continued](./basicmonolith/monolith.pdf) - [YouTube Video](https://youtu.be/mxWfDtmcpRo)
-8. [Web Programming](./basicmonolith/public) - [YouTube Video](./basicmonolith/webprogramming.pdf)
+8. [Web Programming](./basicmonolith/public) - [YouTube Video](.https://youtu.be/u4Gu_PkakgM)
 
 ### Pumpkin Spice Latte Co. © 2021
